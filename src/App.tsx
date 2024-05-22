@@ -59,8 +59,7 @@ function App() {
         break;
       case "=":
         setFirstOperand(String(result));
-        handleOperation(operator);
-        console.log(num1, num2, operator);
+
         break;
     }
 
